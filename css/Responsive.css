@@ -1,0 +1,699 @@
+/* 
+    *MENU
+*/
+
+@media (min-width:300px) and (max-width: 900px){
+    nav{
+        background: #FFF;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+        
+    }
+}
+
+/* 
+    *BANNER
+*/
+
+@media (max-width: 900px){
+
+    #banner {
+        padding:37px 0px 88px;
+    }
+
+    #banner .bannerimage img{
+        max-width:100%;
+        margin-top:40px;
+    }
+
+    #banner .bannercontent h4 {
+        font-size: 15px;
+        font-weight: 500;
+        
+    }
+
+    #banner .bannercontent svg{
+        width: 16px;
+        height: 16px;
+        margin-left:7px;
+    }
+
+    #banner .bannercontent h1 {
+        font-size: 34px;
+        margin-top:8px;
+     
+    }
+
+    #banner .bannercontent p{
+        font-size: 15px;
+        margin: 14px 0px 22px;
+    }
+
+    #banner .bannercontent .button{
+        margin-right:12px;
+    }
+
+    .button {
+        padding: 8px 20px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .button.outline {
+        padding: 8px 7px;
+        border-radius: 10px;
+        font-size: 10px;
+
+    }
+
+    #banner .social h4{
+        font-size: 16px;
+    }
+
+    #banner .social ul li a{
+        width: 33px;
+        height: 33px;
+        line-height:33px;
+    }
+
+}
+
+
+/* 
+     *ABOUT
+*/
+
+@media  (max-width: 900px){
+
+    #about .aboutimg img{
+        max-width:100%;
+        transform:scaleX(-1);
+    }
+
+    #about .aboutcontent h4{
+        font-size: 24px;
+        margin-top:33px;
+    }
+
+    #about .aboutcontent p{
+        font-size:15px;
+        line-height: 165%; /* 24.75px */
+    }
+
+    #about .aboutcontent a{
+        font-size:14px;
+        padding:11px 28px;
+        border-radius:15px;
+    }
+
+}
+
+/* 
+     *SERVICE
+*/
+
+@media  (max-width: 900px){
+
+    #service{
+        margin-top:75px;
+    }
+
+    #service .servicecard{
+        text-align: left;
+        margin:0px 16px 15px 16px ;
+        border-radius:12px;
+        
+    }
+
+    #service .servicecard .serviceimg img{
+        width: 43px;
+        height: 45px;
+       
+    }
+
+    #service .servicecard .serviceimg{
+        padding:26px 0px 0px 26px;
+    }
+
+    #service .servicecard .servicetxt h4{
+        font-size: 14px;
+        margin-top:26px;
+        
+    }
+
+    #service .servicecard .servicetxt p{
+        font-size: 12px;
+        line-height: 174%; /* 20.88px */
+        padding:3px 0px 39px;
+      
+    }
+
+
+}
+
+/* 
+     *BRANDING
+*/
+
+@media  (max-width: 900px){
+
+    #branding{
+        border-radius:20px;
+        margin:85px 16px 0px 16px;
+    }
+
+    #branding .brandingcontent h4{
+        font-size: 24px;
+        margin:27px 0px 17px 25px;
+    }
+
+    #branding .brandingcontent p{
+        font-size: 14px;
+        line-height: 180%; /* 25.2px */
+        margin-bottom:23px;
+        margin-left:25px;
+       
+    }
+
+    #branding .brandingcontent a{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 180%; /* 25.2px */
+        border:none;
+        padding:0px 0px 0px 0px;
+        margin-left:25px;
+        
+    }
+
+    #branding .brandingimg .img{
+        width: 291.732px;
+        height: 270.042px;
+   
+    }
+
+    #branding .brandingimg{
+        margin-left:25px;
+
+    }
+
+}
+
+/* 
+     *HELP
+*/
+
+@media  (max-width: 900px){
+
+    #help .helpcontent h3{
+        font-size: 24px;
+        text-align: left;
+        margin-left:16px;
+    }
+
+    #help .helpcontent span p{
+        color: #7A7A7A;
+        font-size:15px;
+        line-height: 180%; /* 27px */
+        text-align: left;
+        margin:29px 0px 24px 16px;
+
+    }
+
+    #help .helpcontent .number h4{
+        font-size:24px;
+        text-align: left;
+        margin-left:16px;
+    }
+
+    #help .helpcontent .number p{
+        font-size: 10px;
+        line-height: 180%; /* 18px */
+        text-align: left;
+        margin-left:16px;
+
+    }
+
+    #help .helpcard .cardcontent h5{
+        font-size: 15px;
+        line-height: 180%; /* 27px */
+        margin-left:10px;
+    }
+
+    #help .helpcard .cardcontent p{
+        margin-left:10px;
+    }
+
+    #help .helpcard .card{
+        border-radius:12px;
+        margin-top:38px;
+    }
+
+    #help{
+        margin-top:80px;
+    }
+
+}
+
+
+/* 
+     *WORK EXPERIENCE
+*/
+
+@media (min-width: 320px) and (max-width: 900px){
+
+    #workexperience{
+        height:760px;
+        background-color: #FBFBFB;
+    }
+
+    .Heading2{
+        font-size: 24px;
+       padding-top: 32px;
+       margin-top:-150px;
+    }
+
+    #workexperience .timeline .year h4{
+        font-size: 15px;
+        line-height: 180%; /* 27px */
+    }
+
+    #workexperience .timeline .year p{
+        font-size: 12px;
+        line-height: 180%; /* 21.6px */
+    }
+
+    #workexperience .timeline .title h4{
+        font-size: 15px;
+        line-height: 180%; /* 27px */
+    }
+
+    #workexperience .timeline .title p{
+        font-size: 12px;
+        line-height: 200.5%; /* 24.06px */
+    }
+
+    #workexperience .timeline .year{
+        border: none;
+        padding:0px 12px 20px 12px;
+    }
+
+    .timeline .year::after{
+        left:-45px;
+        right: auto;
+
+    }
+
+    .timeline .year::before{
+        left:-34px;
+        right: auto;
+    }
+
+    .timeline{
+        border-left:2px dashed #7A7A7A;
+        padding-left:35px;
+        max-width:90%;
+        margin: auto;
+    }
+
+   
+}
+
+
+/* 
+     *EXPERT AREA
+*/
+
+@media (max-width: 900px){
+
+    #expert .expertcontent p{
+        font-size: 15px;
+        line-height: 200%; /* 30px */
+        margin-top: 26px;
+    }
+
+    .skillcontent ul li button{
+        font-size: 16px;
+        line-height: 180%; /* 28.8px */
+        border-radius:15px;
+        padding:12px 53px 14px 49px;
+    }
+
+    .skillcard h4{
+        font-size: 14px;
+        line-height: 180%; /* 25.2px */
+    }
+
+    .skillcard .progressbar span{
+        font-size: 14px;
+        line-height: 180%; /* 25.2px */
+    }
+
+    .skillcard .progressbar .pro1{
+        font-size: 14px;
+        line-height: 180%; /* 25.2px */
+    }
+
+    .skillcard .progressbar .pro2{
+        font-size: 14px;
+        line-height: 180%; /* 25.2px */
+    }
+
+    .skillcard .progressbar .pro3{
+        font-size: 14px;
+        line-height: 180%; /* 25.2px */
+    }
+
+    .skillcard .progressbar{
+        width: 343px;
+        height: 4px;
+    }
+
+    .tab-content{
+        margin-left:10px;
+    }
+
+    #expert .expertcontent .Heading2{
+        margin-top: -290px;
+    }
+
+    
+}
+
+
+/* 
+    *MY SERVICES
+*/
+
+@media (max-width: 900px){
+
+    #myservices{
+        max-width:100%;
+        height: 859px;
+    }
+
+    #myservices .Headingpart .Heading2{
+        text-align: left;
+        margin-top:-60px;
+    }
+
+    #myservices .Headingpart{
+        padding:0px 12px 40px 12px;
+
+    }
+
+    #myservices .Headingpart p{
+        font-size: 13px;
+        line-height: 180%; /* 23.4px */
+        text-align: left;
+    }
+
+    #myservices .designcard{
+        margin-bottom:15px;
+    }
+
+    #myservices .designcard .images img{
+        width: 54px;
+        height: 54px;
+        
+    }
+
+    #myservices .designcard .images{
+        padding-left: 22px;
+    }
+
+    #myservices .designcard h4{
+        font-size: 15px;
+        line-height: 180%; /* 27px */
+        text-align: left;
+        padding-top: 26px;
+    }
+
+    #myservices .designcard p{
+        font-size: 13px;
+        line-height: 180%; /* 23.4px */
+        text-align: left;
+        padding:9px 24px 23px 0px;
+      
+    }
+
+    #myservices .designcard :hover{
+        color: #FFF;
+      
+    }
+
+}
+
+/* 
+    *FEEDBACK
+*/
+
+@media (min-width: 320px) and (max-width: 900px){
+
+    #feedback{
+        height: 700px;
+        max-width:100%;
+        margin-top:10px;
+    }
+
+    #feedback .feedbackheading{
+        padding:92px 0px 39px 0px;
+    }
+
+    #feedback .feedbackheading p{
+        font-size: 13px;
+        line-height: 180%; /* 23.4px */
+        
+    }
+
+    #feedback .clientimg img{
+        width: 256px;
+        height: 257px;
+    }
+
+    #feedback .status p{
+        font-size: 15px;
+        line-height: 180%; /* 27px */
+        padding:19px 0px 13px 0px;
+    }
+
+    #feedback .status h4{
+        font-size: 15px;
+        line-height: 200%; /* 30px */
+        padding-left:40px;
+        padding-top:0px;
+    }
+
+    #feedback .status .group{
+        font-size: 12px;
+        line-height: 200%; /* 24px */
+        padding:0px 0px 0px 40px;
+    }
+
+    #feedback .Heading2{
+        margin-top:-90px;
+    }
+
+}
+
+/* 
+    *BLOG POST
+*/
+
+@media (min-width: 320px) and (max-width: 900px){
+
+    #blog .Heading2{
+        padding:190px 0px 42px 0px;
+        text-align: left;
+    }
+
+    #blog .blogimg1 img{
+        width: 163px;
+        height: 153px;
+    }
+
+    #blog .blogimg3 img{
+        width: 163px;
+        height: 153px;
+    }
+
+    #blog .blogcontent p{
+        font-size: 10px;
+        line-height: 190%; /* 19px */
+        margin-top:10px;
+    }
+
+    #blog .blogcontent p span{
+        font-size: 10px;
+        line-height: 190%; /* 19px */
+        margin-left:10px;
+    }
+
+    #blog .blogcontent h5{
+        font-size: 13px;
+        line-height: 190%; /* 24.7px */
+        padding:6px 0px 10px 0px;
+    }
+
+    #blog .blogcontent a{
+        font-size: 12px;
+        line-height: 190%; /* 22.8px */
+    }
+
+    #blog .blogcontent p svg{
+        width: 10px;
+        height: 11px;
+    }
+
+    #blog .blogcontent a svg{
+        padding-left:4px;
+    }
+
+    #blog{
+        padding-bottom:0px;
+    }
+
+    
+}
+
+
+/* 
+    *NEWSLETTER
+*/
+
+@media (min-width: 320px) and (max-width: 900px){
+
+    #newsletter{
+        margin-top:80px;
+        padding-bottom:93px;
+    }
+
+    #newsletter .content{
+        padding:32px 0px 40px 40px;
+    }
+
+    #newsletter .subscribe{
+        height: 275px;
+        border-radius: 19px;
+    }
+
+    #newsletter .content p{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 200%; /* 24px */
+    }
+
+    #newsletter .content h3{
+        font-size: 20px;
+        line-height: 200%; /* 40px */
+    }
+
+    #newsletter .content .news{
+        font-size: 14px;
+        line-height: 180%; /* 25.2px */
+    }
+
+    #newsletter .email .sidebutton{
+        width: 76px;
+        height: 47px;
+        padding:12px 5px ;
+        border-radius:0px 10px 10px 0px;
+
+    }
+
+    #newsletter .email .input-field{
+        width: 186px;
+        height: 47px;
+        border-radius:10px 0px 0px 10px;
+    }
+
+    #newsletter .email .input{
+        padding:0px 50px;
+    }
+
+    #newsletter .email .sidebutton a{
+        font-size: 12px;
+    }
+
+    
+    #newsletter .email .input-field{
+        font-size: 12px;
+        padding:13px 0px 11px 20px;
+    }
+
+
+}
+
+/* 
+    *FOOTER
+*/
+
+@media (max-width: 900px){
+
+    #footer{
+        height: 458px;
+    }
+
+    #footer .starting .logopart img{
+        width: 114px;
+        padding: 29px 0px 17px 0px;
+       
+    }
+
+    #footer .starting .workpart h4{
+        font-size: 18px;
+        line-height: 200%; /* 36px */
+        padding-top:0px;
+    }
+
+    #footer .starting .workpart h5{
+        font-size: 13px;
+        line-height: 180%; /* 23.4px */
+    }
+
+    #footer .starting .talkpart .talkbutton {
+        padding: 31px 0px 0px 0px;
+    }
+
+    #footer .contactarea .info{
+        font-size: 12px;
+        line-height: 180%; /* 21.6px */
+        
+    }
+
+    #footer .contactarea .aceess{
+        font-size: 13px;
+        line-height: 180%; /* 23.4px */
+    }
+
+    #footer .follow .social p{
+        font-size: 14px;
+        line-height: 180%; /* 25.2px */
+        margin-right:-35px;
+
+    }
+
+    #footer .social ul li a{
+        width: 35px;
+        height: 35px;
+        line-height:35px;
+        margin-right:-6px;
+    }
+
+
+    #footer .follow .social{
+        padding-top:34px;
+    }
+
+    #footer .contactarea .call .info{
+        padding-top:39px;
+    }
+
+    #footer .contactarea .email .info{
+        padding-top:37px;
+
+    }
+
+}
+
+
+
+
